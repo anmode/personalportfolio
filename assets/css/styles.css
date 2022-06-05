@@ -1114,7 +1114,9 @@ color: var(--first-color-lighter);
       column-gap: 5rem;
   }
   .about_img{
-      width: 350px;
+      width: 450px;
+      align-self: start;
+      padding-top: 20%;
   }
   .about_discription{
       text-align: initial;
