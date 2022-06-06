@@ -1047,6 +1047,15 @@ color: var(--first-color-lighter);
         grid-template-columns: .6fr;
         justify-content: center;
     }
+    .about_discription{
+        text-align: left;
+    }
+    .about_info{
+        justify-content:space-between;
+    }
+    .about_buttons{
+        justify-content: initial;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -1115,7 +1124,7 @@ color: var(--first-color-lighter);
       column-gap: 5rem;
   }
   .about_img{
-      width: 350px;
+      width: 450px;
       align-self: start;
       padding-top: 20%;
   }
@@ -1123,7 +1132,7 @@ color: var(--first-color-lighter);
       text-align: initial;
   }
   .about_info{
-      justify-content: space-between;
+      justify-content:space-between;
   }
   .about_buttons{
       justify-content: initial;
